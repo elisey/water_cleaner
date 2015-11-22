@@ -3,7 +3,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-
 void LcdHal_GpioInit();
 void LcdHal_SetBusAsOutput();
 void LcdHal_SetBusAsInput();
