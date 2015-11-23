@@ -21,15 +21,17 @@ int main( void )
 	UptimeService_Init();
 	HardwareControl_Init();
 	__enable_interrupt();
-	Lcd_Init();
-	Lcd_ClearScreen();
-	Lcd_Goto(1,5);
-	Lcd_PutChar('h');
-	Lcd_PutString("Привет");
+	//Lcd_Init();
+	//Lcd_ClearScreen();
+	//Lcd_Goto(1,5);
+	//Lcd_PutChar('h');
+	//Lcd_PutString("Привет");
+	
+	Buttons_Init();
 	while(1)
 	{
 		int i;
-		
+		Buttons_Process();
 		/*for(i=0; i < 7; i++)	{
 			HardwareControl_SetOutputState(i, true);
 			delay();
