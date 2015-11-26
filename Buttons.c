@@ -21,6 +21,8 @@ typedef struct	{
 
 buttonData_t buttonsData[NUM_OF_BUTTONS];
 
+button_t pressedButton;
+
 static void processButton(buttonData_t *ptrButtonData);
 
 void Buttons_Init()
@@ -36,6 +38,7 @@ void Buttons_Init()
 		buttonsData[i].timer = 0;
 		buttonsData[i].index = i;
 	}
+	pressedButton = buttonNone;
 }
 
 void Buttons_Process()
@@ -47,7 +50,15 @@ void Buttons_Process()
 	}
 }
 
-#include "HardwareControl.h"
+button_t Buttons_getPressedButton()
+{
+	if (pressedButton != buttonNone)	{
+		button_t button = pressedButton;
+		pressedButton = buttonNone;
+		return button;
+	}
+	return buttonNone;
+}
 
 static void processButton(buttonData_t *ptrButtonData)
 {
@@ -67,8 +78,7 @@ static void processButton(buttonData_t *ptrButtonData)
 		}
 		
 		if (UptimeService_GetTimeDiff(ptrButtonData->timer) >= 50)	{
-			
-			HardwareControl_SetOutputState(ptrButtonData->index, true);
+			pressedButton = ptrButtonData->index;
 			//Послать событие
 			ptrButtonData->state = state_waitRelease;
 			return;
@@ -78,7 +88,6 @@ static void processButton(buttonData_t *ptrButtonData)
 		if (PinInput_Read( &(ptrButtonData->pin) ) == true)	{
 			ptrButtonData->state = state_releaseDebounce;
 			ptrButtonData->timer = UptimeService_GetUptime();
-			HardwareControl_SetOutputState(ptrButtonData->index, false);
 			return;
 		}
 	}
