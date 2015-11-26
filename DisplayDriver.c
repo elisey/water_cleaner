@@ -22,7 +22,7 @@ void DisplayDriver_Process()
 {
 	static uint32_t prevRefleshTime = 0;
 	
-	if (UptimeService_GetTimeDiff(prevRefleshTime) > 20)	{
+	if (UptimeService_GetTimeDiff(prevRefleshTime) > 10)	{
 		prevRefleshTime = UptimeService_GetUptime();
 		
 		Lcd_Goto(1,0);

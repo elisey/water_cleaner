@@ -77,7 +77,7 @@ static void processButton(buttonData_t *ptrButtonData)
 			return;
 		}
 		
-		if (UptimeService_GetTimeDiff(ptrButtonData->timer) >= 50)	{
+		if (UptimeService_GetTimeDiff(ptrButtonData->timer) >= 20)	{
 			pressedButton = ptrButtonData->index;
 			//Послать событие
 			ptrButtonData->state = state_waitRelease;
@@ -92,7 +92,7 @@ static void processButton(buttonData_t *ptrButtonData)
 		}
 	}
 	else if (state == state_releaseDebounce)	{
-		if (UptimeService_GetTimeDiff(ptrButtonData->timer) >= 40)	{
+		if (UptimeService_GetTimeDiff(ptrButtonData->timer) >= 10)	{
 			ptrButtonData->state = state_waitPress;
 			return;
 		}
