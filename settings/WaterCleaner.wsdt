@@ -2,26 +2,24 @@
 
 <Workspace>
   <ConfigDictionary>
-    <CurrentConfigs>
-      <Project>WaterCleaner/Debug</Project>
-    </CurrentConfigs>
-  </ConfigDictionary>
+    
+  <CurrentConfigs><Project>WaterCleaner/Debug</Project></CurrentConfigs></ConfigDictionary>
   <Desktop>
     <Static>
       <Workspace>
         <ColumnWidths>
-          <Column0>163</Column0>
-          <Column1>27</Column1>
-          <Column2>27</Column2>
-          <Column3>27</Column3>
-        </ColumnWidths>
+          
+          
+          
+          
+        <Column0>163</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
-        <ColumnWidth0>20</ColumnWidth0>
-        <ColumnWidth1>1349</ColumnWidth1>
-        <ColumnWidth2>359</ColumnWidth2>
-        <ColumnWidth3>89</ColumnWidth3>
-      </Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1349</ColumnWidth1><ColumnWidth2>359</ColumnWidth2><ColumnWidth3>89</ColumnWidth3></Build>
       <TerminalIO/>
       <Select-Ambiguous-Definitions>
         <ColumnWidth0>344</ColumnWidth0>
@@ -30,23 +28,21 @@
       </Select-Ambiguous-Definitions>
     </Static>
     <Windows>
-      <Wnd0>
+      
+      
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-8843-31254</Identity>
             <TabName>Workspace</TabName>
             <Factory>Workspace</Factory>
             <Session>
-              <NodeDict>
-                <ExpandedNode>WaterCleaner</ExpandedNode>
-                <ExpandedNode>WaterCleaner/hd44780_driver</ExpandedNode>
-              </NodeDict>
-            </Session>
+              
+            <NodeDict><ExpandedNode>WaterCleaner</ExpandedNode><ExpandedNode>WaterCleaner/hd44780_driver</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd0>
-      <Wnd1>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-17626-4462</Identity>
@@ -61,251 +57,21 @@
             <Session/>
           </Tab>
         </Tabs>
-        <SelectedTab>0</SelectedTab>
-      </Wnd1>
-    </Windows>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
     <Editor>
-      <Pane>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\main.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>493</SelStart2>
-          <SelEnd2>493</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\HardwareControl.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>978</SelStart2>
-          <SelEnd2>978</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\UptimeService.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>0</SelStart2>
-          <SelEnd2>0</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\HardwareControl.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>59</SelStart2>
-          <SelEnd2>59</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\pin_output.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>239</SelStart2>
-          <SelEnd2>250</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\pin_input.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>360</SelStart2>
-          <SelEnd2>373</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\gpio.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>32</YPos2>
-          <SelStart2>3683</SelStart2>
-          <SelEnd2>3686</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\hd44780_driver\hd44780_hal.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
-          <SelStart2>57</SelStart2>
-          <SelEnd2>57</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\hd44780_driver\hd44780_hal.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>52</YPos2>
-          <SelStart2>1940</SelStart2>
-          <SelEnd2>1940</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\hd44780_driver\hd44780.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>46</YPos2>
-          <SelStart2>3068</SelStart2>
-          <SelEnd2>3068</SelEnd2>
-        </Tab>
-        <ActiveTab>9</ActiveTab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\gpio.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>113</YPos2>
-          <SelStart2>5614</SelStart2>
-          <SelEnd2>5623</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\hd44780_driver\lcd_cfg.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>29</YPos2>
-          <SelStart2>2479</SelStart2>
-          <SelEnd2>2479</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\hd44780_driver\hd44780.h</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>55</YPos2>
-          <SelStart2>3250</SelStart2>
-          <SelEnd2>3278</SelEnd2>
-        </Tab>
-      </Pane>
-      <ActivePane>0</ActivePane>
-      <Sizes>
-        <Pane>
-          <X>1000000</X>
-          <Y>1000000</Y>
-        </Pane>
-      </Sizes>
-      <SplitMode>1</SplitMode>
-    </Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hd44780_driver\lcd_cfg.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1596</SelStart2><SelEnd2>1596</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Buttons.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>129</SelStart2><SelEnd2>139</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\pin_input.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\UptimeService.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>388</SelStart2><SelEnd2>388</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\Program Files (x86)\IAR Systems\Embedded Workbench 7.0\stm8\inc\c\stdint.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>204</YPos2><SelStart2>3908</SelStart2><SelEnd2>3924</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\pin_input.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\HardwareControl.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>170</SelStart2><SelEnd2>199</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MenuControl.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>71</SelStart2><SelEnd2>93</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\DisplayDriver.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>300</SelStart2><SelEnd2>300</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Buttons.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>20</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\DisplayDriver.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>39</YPos2><SelStart2>1175</SelStart2><SelEnd2>1175</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\HardwareControl.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1239</SelStart2><SelEnd2>1239</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\StateMachine.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>110</SelStart2><SelEnd2>110</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\StateMachine.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1023</SelStart2><SelEnd2>1023</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\UptimeService.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>33</SelStart2><SelEnd2>33</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hd44780_driver\hd44780.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>318</YPos2><SelStart2>10413</SelStart2><SelEnd2>10449</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>389</SelStart2><SelEnd2>389</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\hd44780_driver\hd44780.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>49</YPos2><SelStart2>3914</SelStart2><SelEnd2>3927</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\MenuControl.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>91</YPos2><SelStart2>2768</SelStart2><SelEnd2>2768</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Automation.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>302</SelStart2><SelEnd2>302</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Automation.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>124</YPos2><SelStart2>4188</SelStart2><SelEnd2>4188</SelEnd2></Tab><ActiveTab>20</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
-      <Top>
-        <Row0>
-          <Sizes>
-            <Toolbar-047F8588>
-              <key>iaridepm.enu1</key>
-            </Toolbar-047F8588>
-          </Sizes>
-        </Row0>
-        <Row1>
-          <Sizes/>
-        </Row1>
-        <Row2>
-          <Sizes/>
-        </Row2>
-      </Top>
-      <Left>
-        <Row0>
-          <Sizes>
-            <Wnd0>
-              <Rect>
-                <Top>-2</Top>
-                <Left>-2</Left>
-                <Bottom>992</Bottom>
-                <Right>237</Right>
-                <x>-2</x>
-                <y>-2</y>
-                <xscreen>200</xscreen>
-                <yscreen>200</yscreen>
-                <sizeHorzCX>107643</sizeHorzCX>
-                <sizeHorzCY>192864</sizeHorzCY>
-                <sizeVertCX>128633</sizeVertCX>
-                <sizeVertCY>958534</sizeVertCY>
-              </Rect>
-            </Wnd0>
-          </Sizes>
-        </Row0>
-      </Left>
-      <Right>
-        <Row0>
-          <Sizes/>
-        </Row0>
-      </Right>
-      <Bottom>
-        <Row0>
-          <Sizes/>
-        </Row0>
-      </Bottom>
-      <Float>
-        <Sizes>
-          <Wnd1>
-            <Rect>
-              <Top>0</Top>
-              <Left>0</Left>
-              <Bottom>0</Bottom>
-              <Right>7</Right>
-              <x>-2</x>
-              <y>-2</y>
-              <FloatX>2149</FloatX>
-              <FloatY>275</FloatY>
-              <FloatWidth>993</FloatWidth>
-              <FloatHeight>580</FloatHeight>
-              <xscreen>1862</xscreen>
-              <yscreen>200</yscreen>
-              <sizeHorzCX>1002153</sizeHorzCX>
-              <sizeHorzCY>192864</sizeHorzCY>
-              <sizeVertCX>107643</sizeVertCX>
-              <sizeVertCY>192864</sizeVertCY>
-            </Rect>
-          </Wnd1>
-        </Sizes>
-      </Float>
-    </Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02F38588><key>iaridepm.enu1</key></Toolbar-02F38588></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>992</Bottom><Right>237</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>107643</sizeHorzCX><sizeHorzCY>192864</sizeHorzCY><sizeVertCX>128633</sizeVertCX><sizeVertCY>958534</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes/></Row0></Bottom><Float><Sizes><Wnd1><Rect><Top>0</Top><Left>0</Left><Bottom>0</Bottom><Right>0</Right><x>-2</x><y>-2</y><FloatX>2149</FloatX><FloatY>275</FloatY><FloatWidth>993</FloatWidth><FloatHeight>580</FloatHeight><xscreen>1862</xscreen><yscreen>200</yscreen><sizeHorzCX>1002153</sizeHorzCX><sizeHorzCY>192864</sizeHorzCY><sizeVertCX>107643</sizeVertCX><sizeVertCY>192864</sizeVertCY></Rect></Wnd1></Sizes></Float></Positions>
   </Desktop>
 </Workspace>
 

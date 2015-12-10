@@ -3,7 +3,11 @@
 #include "HardwareControl.h"
 #include "UptimeService.h"
 #include <intrinsics.h>
-#include "hd44780.h"
+#include "MenuControl.h"
+#include "Buttons.h"
+#include "DisplayDriver.h"
+#include "Automation.h"
+
 void delay()
 {
 	volatile uint32_t i;
@@ -21,26 +25,22 @@ int main( void )
 	UptimeService_Init();
 	HardwareControl_Init();
 	__enable_interrupt();
-	//Lcd_Init();
-	//Lcd_ClearScreen();
-	//Lcd_Goto(1,5);
-	//Lcd_PutChar('h');
-	//Lcd_PutString("Привет");
-	
+
+	DisplayDriver_Init();
 	Buttons_Init();
+	MenuControl_Init();
+	
+	Automation_Init();
+	
+	Automation_Start();
+	
 	while(1)
 	{
-		int i;
+		Automation_Process();
 		Buttons_Process();
-		/*for(i=0; i < 7; i++)	{
-			HardwareControl_SetOutputState(i, true);
-			delay();
-		}
-		
-		for(i=0; i < 7; i++)	{
-			HardwareControl_SetOutputState(i, false);
-			delay();
-		}*/
+		DisplayDriver_Process();
+		MenuControl_Process();
+
 
 	}
 }

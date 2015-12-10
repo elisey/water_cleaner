@@ -78,8 +78,8 @@ static void processButton(buttonData_t *ptrButtonData)
 		}
 		
 		if (UptimeService_GetTimeDiff(ptrButtonData->timer) >= 20)	{
+			//Кнопка нажата
 			pressedButton = ptrButtonData->index;
-			//Послать событие
 			ptrButtonData->state = state_waitRelease;
 			return;
 		}

@@ -1606,6 +1606,30 @@
     </file>
   </group>
   <file>
+    <name>$PROJ_DIR$\Automation.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\Automation.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\Buttons.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\Buttons.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\DisplayDriver.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\DisplayDriver.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\eeprom.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\eeprom.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\gpio.c</name>
   </file>
   <file>
@@ -1621,6 +1645,12 @@
     <name>$PROJ_DIR$\main.c</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\MenuControl.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\MenuControl.h</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\pin_input.c</name>
   </file>
   <file>
@@ -1631,6 +1661,12 @@
   </file>
   <file>
     <name>$PROJ_DIR$\pin_output.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\StateMachine.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\StateMachine.h</name>
   </file>
   <file>
     <name>$PROJ_DIR$\UptimeService.c</name>
