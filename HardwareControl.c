@@ -32,5 +32,5 @@ void HardwareControl_SetOutputState(uint8_t outputIndex, bool newState)
 bool HardwareControl_GetInputState(uint8_t inputIndex)
 {
 	assert(inputIndex < 3);
-	return PinInput_Read( (&inputs[inputIndex]) );
+	return !(PinInput_Read( &(inputs[inputIndex]) ) );
 }
